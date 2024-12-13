@@ -1,0 +1,13 @@
+[project]
+authors = ["Stelios Geogaras <steliosgp13@gmail.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+description = "Add a short description here"
+name = "algos"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.12"
+max = ">=24.5.0,<25"
